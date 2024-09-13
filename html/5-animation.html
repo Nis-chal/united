@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    @keyframes spinAnimation {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .box {
+      background-color: white;
+      border-radius: 50%;
+      border-top: 20px;
+      height: 500px;
+      width: 500px;
+      animation-name: spinAnimation;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      /* animation: spinAnimation 3s linear infinite; */
+      border: 15px solid blue;
+      border-top: 15px solid red;
+      background-image: url("https://plus.unsplash.com/premium_photo-1686729237226-0f2edb1e8970?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGVyfGVufDB8fDB8fHww");
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

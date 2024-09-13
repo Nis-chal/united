@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        background-color: rebeccapurple;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .flex-container > div {
+        background-color: white;
+
+        padding: 20px;
+        font-size: 30px;
+        transition: 2s all ease-in;
+      }
+
+      .child:hover {
+        background-color: red;
+      }
+
+      .inline-element {
+        display: block;
+        background-color: green;
+        height: 100px;
+        width: 100px;
+      }
+
+      @keyframes new {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes trans {
+        0% {
+          transform: translateX(100px);
+          height: 0;
+        }
+        100% {
+          transform: translateX(-100px);
+          height: 200px;
+        }
+      }
+
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid blue;
+        /* border-radius: 50%; */
+        animation: trans 10s linear infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-dev">
+      <div class="flex-container">
+        <div class="child">first div</div>
+        <div class="child">second div</div>
+        <div class="child">third div</div>
+      </div>
+    </div>
+
+    <section>
+      <span class="inline-element">inline element</span>
+    </section>
+
+    <section>
+      <div class="spinner"></div>
+    </section>
+  </body>
+</html>
