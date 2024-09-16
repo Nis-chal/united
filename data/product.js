@@ -122,3 +122,6 @@ const books = [
   { id: 4, title: "Moby Dick", author: "Herman Melville", year: 1851 },
   { id: 5, title: "Pride and Prejudice", author: "Jane Austen", year: 1813 },
 ];
+
+const productLink = "https://dummyjson.com/products";
+const userLink = "https://dummyjson.com/users";
