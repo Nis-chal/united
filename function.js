@@ -1,5 +1,4 @@
-// console.log(greet("Alice"));
-
+greet();
 function greet(name) {
   return `Hello, ${name}!`;
 }
@@ -16,7 +15,3 @@ const animal = {
 };
 
 animal.bark();
-
-
-
-console.log(Math.min(1, 2, 3, 4));
