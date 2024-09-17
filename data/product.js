@@ -1,9 +1,124 @@
 export const products = [
-  { id: 1, name: "Laptop", price: 999.99, inStock: true },
-  { id: 2, name: "Mouse", price: 25.5, inStock: true },
-  { id: 3, name: "Keyboard", price: 75.0, inStock: false },
-  { id: 4, name: "Monitor", price: 300.0, inStock: true },
-  { id: 5, name: "Headphones", price: 150.0, inStock: false },
+  {
+    id: 1,
+    name: "Laptop",
+    price: 999.99,
+    inStock: true,
+    category: "Electronics",
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    name: "Mouse",
+    price: 25.5,
+    inStock: true,
+    category: "Accessories",
+    rating: 4.0,
+  },
+  {
+    id: 3,
+    name: "Keyboard",
+    price: 75.0,
+    inStock: false,
+    category: "Accessories",
+    rating: 3.8,
+  },
+  {
+    id: 4,
+    name: "Monitor",
+    price: 300.0,
+    inStock: true,
+    category: "Electronics",
+    rating: 4.2,
+  },
+  {
+    id: 5,
+    name: "Headphones",
+    price: 150.0,
+    inStock: false,
+    category: "Audio",
+    rating: 4.7,
+  },
+  {
+    id: 6,
+    name: "Smartphone",
+    price: 799.99,
+    inStock: true,
+    category: "Electronics",
+    rating: 4.6,
+  },
+  {
+    id: 7,
+    name: "Desk Lamp",
+    price: 45.0,
+    inStock: true,
+    category: "Home & Office",
+    rating: 3.9,
+  },
+  {
+    id: 8,
+    name: "Webcam",
+    price: 85.0,
+    inStock: false,
+    category: "Accessories",
+    rating: 4.1,
+  },
+  {
+    id: 9,
+    name: "Gaming Chair",
+    price: 250.0,
+    inStock: true,
+    category: "Furniture",
+    rating: 4.4,
+  },
+  {
+    id: 10,
+    name: "Speakers",
+    price: 120.0,
+    inStock: true,
+    category: "Audio",
+    rating: 4.3,
+  },
+  {
+    id: 11,
+    name: "Printer",
+    price: 199.99,
+    inStock: true,
+    category: "Office Supplies",
+    rating: 3.7,
+  },
+  {
+    id: 12,
+    name: "Tablet",
+    price: 499.99,
+    inStock: false,
+    category: "Electronics",
+    rating: 4.0,
+  },
+  {
+    id: 13,
+    name: "External Hard Drive",
+    price: 89.99,
+    inStock: true,
+    category: "Storage",
+    rating: 4.5,
+  },
+  {
+    id: 14,
+    name: "USB Cable",
+    price: 15.0,
+    inStock: true,
+    category: "Accessories",
+    rating: 4.0,
+  },
+  {
+    id: 15,
+    name: "Wireless Charger",
+    price: 35.0,
+    inStock: false,
+    category: "Accessories",
+    rating: 4.2,
+  },
 ];
 
 const reviews = [
@@ -125,3 +240,7 @@ const books = [
 
 export const productLink = "https://dummyjson.com/products";
 const userLink = "https://dummyjson.com/users";
+
+export const data = "hello world"
+
+export default userLink
